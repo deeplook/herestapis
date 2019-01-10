@@ -1,0 +1,17 @@
+name: example-environment
+channels:
+  - conda-forge
+dependencies:
+  - python==3.6
+  - numpy
+  - pip:
+    - httpie
+    - nbgitpuller
+    - sphinx-gallery
+    - matplotlib    
+    - geopy
+    - shapely
+    - geographiclib
+    - cesiumpy
+    - ipyearth
+    - git+https://github.com/deeplook/ipyrest
