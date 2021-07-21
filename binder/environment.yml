@@ -16,5 +16,4 @@ dependencies:
     - cesiumpy
     - ipyearth
     - git+https://github.com/deeplook/ipyrest
-    - --extra-index-url https://repo.platform.here.com/artifactory/api/pypi/analytics-pypi/simple/
-    - here-platform==2.2.0
+    - "--extra-index-url https://repo.platform.here.com/artifactory/api/pypi/analytics-pypi/simple/ here-platform==2.2.0"
