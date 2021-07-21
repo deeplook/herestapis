@@ -7,4 +7,8 @@ This is a collection of notebooks presented at a ["Geocoding and Mapping" specia
 
 Of course, you could also download or clone this repo and install the dependencies in `binder/apt.txt` and `binder/environment.yml` locally (the latter with `conda`)... For now the former is recommended, as everything should work (except the `ipyearth` bits, which will be hopefully fixed, soon, too). 
 
-For getting the full experience a registration with https://developer.here.com is needed, together with APP_CODE and APP_ID credentials, which need to be stored in the file `credentials.py.template` (with the `.template` extension removed). 
+For getting the full experience a registration with https://developer.here.com is needed, together with APP_CODE and APP_ID credentials, which need to be stored in the file `credentials.py.template` (with the `.template` extension removed).
+
+## UPDATE
+
+Meanwhile there is a dedicated Python package named [here_location_services](https://github.com/heremaps/here-location-services-python) for accessing a lot of these APIs even more easily. 
