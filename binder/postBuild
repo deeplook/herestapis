@@ -2,4 +2,5 @@
 
 jupyter nbextension enable --py --sys-prefix ipyearth
 
+mkdir ~/.here
 touch ~/.here/credentials.properties
