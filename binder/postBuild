@@ -1,3 +1,5 @@
 #!/bin/bash
 
 jupyter nbextension enable --py --sys-prefix ipyearth
+
+touch ~/.here/credentials.properties
