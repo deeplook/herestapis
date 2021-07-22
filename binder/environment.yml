@@ -4,6 +4,7 @@ channels:
 dependencies:
   - python==3.8
   - numpy
+  - jupyterlab>=3.0.16
   - pip
   - pip:
     - httpie
